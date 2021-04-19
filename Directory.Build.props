@@ -1,0 +1,202 @@
+<Project>
+  <PropertyGroup>
+    <NuGetPackageRoot>$(MSBuildThisProjectDirectory)packages\</NuGetPackageRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- <AspNetCore21SupportedPackage Include="dotnet-aspnet-codegenerator" /> -->
+    <!-- <AspNetCore21SupportedPackage Include="dotnet-dev-certs" /> -->
+    <!-- <AspNetCore21SupportedPackage Include="dotnet-ef" /> -->
+    <!-- <AspNetCore21SupportedPackage Include="dotnet-sql-cache" /> -->
+    <!-- <AspNetCore21SupportedPackage Include="dotnet-user-secrets" /> -->
+    <!-- <AspNetCore21SupportedPackage Include="dotnet-watch" /> -->
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore" />
+    <!-- <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.All" /> -->
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Antiforgery" />
+    <!-- <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.App" /> -->
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.ApplicationInsights.HostingStartup" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.AzureADB2C.UI" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.Cookies" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.Core" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.Facebook" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.Google" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.OAuth" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.Twitter" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authentication.WsFederation" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authorization" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Authorization.Policy" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.AzureAppServices.HostingStartup" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.AzureAppServicesIntegration" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Connections.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.CookiePolicy" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Cors" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Cryptography.Internal" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.DataProtection" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.DataProtection.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.DataProtection.AzureKeyVault" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.DataProtection.AzureStorage" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.DataProtection.Extensions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.DataProtection.Redis" Version="0.4.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.DataProtection.SystemWeb" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Diagnostics" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Diagnostics.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.HostFiltering" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Hosting" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Hosting.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Hosting.Server.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Hosting.WindowsServices" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Html.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Http" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Http.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Http.Connections" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Http.Connections.Client" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Http.Connections.Common" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Http.Extensions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Http.Features" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.HttpOverrides" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.HttpsPolicy" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Identity" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Identity.Specification.Tests" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Identity.UI" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.JsonPatch" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Localization" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Localization.Routing" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.MiddlewareAnalysis" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Analyzers" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.ApiExplorer" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Core" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Cors" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.DataAnnotations" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Formatters.Json" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Formatters.Xml" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Localization" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Razor" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Razor.Extensions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.RazorPages" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.TagHelpers" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.ViewFeatures" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Mvc.WebApiCompatShim" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.NodeServices" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Owin" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Razor" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Razor.Design" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Razor.Language" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Razor.Runtime" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.ResponseCaching" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.ResponseCaching.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.ResponseCompression" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Rewrite" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Routing" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Routing.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Server.HttpSys" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Server.IISIntegration" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Server.Kestrel" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Server.Kestrel.Core" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Server.Kestrel.Https" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.Session" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SignalR" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SignalR.Client" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SignalR.Common" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SignalR.Core" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SignalR.Protocols.Json" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SignalR.Redis" Version="1.0.*" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SpaServices" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.SpaServices.Extensions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.StaticFiles" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.TestHost" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.WebSockets" />
+    <AspNetCore21SupportedPackage Include="Microsoft.AspNetCore.WebUtilities" />
+    <AspNetCore21SupportedPackage Include="Microsoft.CodeAnalysis.Razor" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Data.Sqlite" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Data.Sqlite.Core" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Analyzers" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Design" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.InMemory" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Proxies" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Relational" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Relational.Specification.Tests" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Specification.Tests" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Sqlite.Core" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <AspNetCore21SupportedPackage Include="Microsoft.EntityFrameworkCore.Tools" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Caching.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Caching.Memory" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Caching.Redis" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Caching.SqlServer" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.AzureKeyVault" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.Binder" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.CommandLine" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.EnvironmentVariables" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.FileExtensions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.Ini" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.Json" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.KeyPerFile" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.UserSecrets" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Configuration.Xml" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.DependencyInjection" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.DependencyInjection.Specification.Tests" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.DiagnosticAdapter" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.FileProviders.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.FileProviders.Composite" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.FileProviders.Embedded" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.FileProviders.Physical" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.FileSystemGlobbing" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Hosting" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Hosting.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Http" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Http.Polly" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Identity.Core" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Identity.Stores" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Localization" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Localization.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging.Abstractions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging.AzureAppServices" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging.Configuration" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging.Console" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging.Debug" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging.EventLog" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging.EventSource" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Logging.TraceSource" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.ObjectPool" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Options" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.Primitives" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Extensions.WebEncoders" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Net.Http.Headers" />
+    <AspNetCore21SupportedPackage Include="Microsoft.NET.Sdk.Razor" />
+    <AspNetCore21SupportedPackage Include="Microsoft.Owin.Security.Interop" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.BrowserLink" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.CodeGeneration" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.CodeGeneration.Core" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" />
+    <AspNetCore21SupportedPackage Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" />
+  </ItemGroup>
+</Project>
